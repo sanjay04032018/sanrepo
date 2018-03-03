@@ -22,7 +22,7 @@ public class AppTest {
         aTitle = driver.getTitle();
         // compare the actual title  with the expected title 
         if (aTitle.contentEquals(eTitle)){
-            System.out.println("Test Passed");
+            System.out.println("Test Passed then");
         } else {
             System.out.println("Test Failed");
         }        
